@@ -12,6 +12,10 @@ The project has the following files:
 - Emoji0.png, Emoji1.png, Emoji2.png, Emoji3.png, Emoji4.png, Emoji5.png, Emoji6.png, Emoji7.png, Emoji8.png, Emoji9.png: Images used for visualization of the results.
 - requirements.txt: Text file containing the necessary packages to be installed for running the project.
 
+## The dataset
+The dataset was downloaded from Kaggle and it has 1599 examples of wines with qualities ranging from 3 to 8. Each wine had its own features as mentioned earlier. You can download the original dataset from the following link:
+https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
+
 ## Installation
 1. Clone the repository: ``` git clone https://github.com/Maximo-Rulli/Wine-quality-prediction.git ```
 2. Navigate to the project directory: ``` cd Wine-quality-prediction ```
