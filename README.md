@@ -13,16 +13,19 @@ The project has the following files:
 - requirements.txt: Text file containing the necessary packages to be installed for running the project.
 
 ## Installation
-### Clone the repository: ''' git clone https://github.com/[USERNAME]/wine-quality-classification.git '''
+. Clone the repository: ``` git clone https://github.com/Maximo-Rulli/Wine-quality-prediction.git ```
 
-### Navigate to the project directory: cd wine-quality-classification
-Install the required packages: pip install -r requirements.txt
-Run the softmax_regression.py script: python softmax_regression.py
-Usage
-Run the softmax_regression.py script.
-Adjust the sliders to set the wine features.
-The predicted wine quality will be displayed as a point on the interactive graph.
-Interactive Graph
+. Navigate to the project directory: ``` cd Wine-quality-prediction ```
+. Install the required packages: ``` pip install -r requirements.txt ```
+. Run the softmax_regression.py script: ``` python softmax_regression.py ```
+
+
+## Usage
+. Run the softmax_regression.py script.
+. Adjust the sliders to set the wine features.
+. The predicted wine quality will be displayed as a point on the interactive graph.
+
+## Interactive Graph
 An interactive graph was developed to display the predicted wine quality as a point on a scatterplot. The graph displays ten emojis, each corresponding to a quality score from 1 to 10. The x-axis and y-axis represent the predicted quality score and the actual quality score, respectively. The graph is interactive and updates in real-time as the user adjusts the sliders to set the wine features.
 
 Interactive Graph
