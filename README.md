@@ -13,11 +13,10 @@ The project has the following files:
 - requirements.txt: Text file containing the necessary packages to be installed for running the project.
 
 ## Installation
-. Clone the repository: ``` git clone https://github.com/Maximo-Rulli/Wine-quality-prediction.git ```
-
-. Navigate to the project directory: ``` cd Wine-quality-prediction ```
-. Install the required packages: ``` pip install -r requirements.txt ```
-. Run the softmax_regression.py script: ``` python softmax_regression.py ```
+1. Clone the repository: ``` git clone https://github.com/Maximo-Rulli/Wine-quality-prediction.git ```
+2. Navigate to the project directory: ``` cd Wine-quality-prediction ```
+3. Install the required packages: ``` pip install -r requirements.txt ```
+4. Run the softmax_regression.py script: ``` python softmax_regression.py ```
 
 
 ## Usage
