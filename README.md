@@ -17,10 +17,22 @@ The dataset was downloaded from Kaggle and it has 1599 examples of wines with qu
 https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
 
 ## Installation
-1. Clone the repository: ``` git clone https://github.com/Maximo-Rulli/Wine-quality-prediction.git ```
-2. Navigate to the project directory: ``` cd Wine-quality-prediction ```
-3. Install the required packages: ``` pip install -r requirements.txt ```
-4. Run the graph.py script: ``` python graph.py ```
+1. Clone the repository: 
+``` 
+git clone https://github.com/Maximo-Rulli/Wine-quality-prediction.git 
+```
+2. Navigate to the project directory: 
+``` 
+cd Wine-quality-prediction 
+```
+3. Install the required packages: 
+``` 
+pip install -r requirements.txt 
+```
+4. Run the graph.py script: 
+``` 
+python graph.py
+```
 
 
 ## Usage
@@ -29,7 +41,10 @@ https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
 3. The predicted wine quality will be displayed as a point on the interactive graph.
 
 ## Retraining
-The model can be retrained to obtain different results, to achieve this, run the Wine_prediction.ipynb: ``` jupyter notebook Wine_prediction.ipynb ```
+The model can be retrained to obtain different results, to achieve this, run the Wine_prediction.ipynb: 
+``` 
+jupyter notebook Wine_prediction.ipynb 
+```
 
 ## Interactive Graph
 An interactive graph was developed to display the predicted wine quality as a point on a scatterplot. The graph displays ten emojis, each corresponding to a quality score from 1 to 10. The x-axis and y-axis represent the predicted quality score based on the sliders inputs. The graph is interactive and updates in real-time as the user adjusts the sliders to set the wine features.
